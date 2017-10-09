@@ -80,7 +80,7 @@ class Board {
     }
 
     print(board) {
-    console.log(this._playerBoard.map(row => row.join(' | ')).join('\n'));
+    console.log(this._bombBoard.map(row => row.join(' | ')).join('\n'));
     };
 
 
